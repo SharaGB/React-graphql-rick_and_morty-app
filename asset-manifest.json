@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/SharaGB/React-graphql-rick_and_morty-app/static/js/main.4f1d5b17.js",
-    "index.html": "/SharaGB/React-graphql-rick_and_morty-app/index.html",
-    "main.4f1d5b17.js.map": "/SharaGB/React-graphql-rick_and_morty-app/static/js/main.4f1d5b17.js.map"
+    "main.js": "/React-graphql-rick_and_morty-app/static/js/main.0b272749.js",
+    "index.html": "/React-graphql-rick_and_morty-app/index.html",
+    "main.0b272749.js.map": "/React-graphql-rick_and_morty-app/static/js/main.0b272749.js.map"
   },
   "entrypoints": [
-    "static/js/main.4f1d5b17.js"
+    "static/js/main.0b272749.js"
   ]
 }
