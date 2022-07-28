@@ -1,5 +1,6 @@
 {
   "name": "react-graphql-rick_and_morty-app",
+  "homepage": "https://github.com/SharaGB/React-graphql-rick_and_morty-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://$GT_TOKEN@github.com/SharaGB/React-graphql-rick_and_morty-app"
   },
   "eslintConfig": {
     "extends": [
@@ -40,7 +43,8 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0"
   },
   "plugins": [
     "react-hooks"
